@@ -38,4 +38,4 @@ To get started with our project, follow these steps:
 We would like to thank EESTEC LC Aachen and Infineon for organizing this hackathon and providing us with the opportunity to work on such an exciting project.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](https://www.mit.edu/~amini/LICENSE.md).
