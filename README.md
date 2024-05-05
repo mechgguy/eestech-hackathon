@@ -19,7 +19,7 @@ Our solution is a UI which is based on a Large Language Model (LLM) that analyze
 - We propose a web UI and a CLI for demonstration for our work.
 
 ## How It Works
-1. **Data Collection**: We gather customer comments and related data from public sources. For our current dummy implementation we used the pickle data of github issues (with user comments). 
+1. **Data Collection**: We gather customer comments and related data from public sources. For our current dummy implementation we used the pickle data of github issues `github_issues.pkl` (and further with user comments). 
 2. **Preprocessing**: The data is preprocessed to remove noise and irrelevant information. We identified that some of the entries in the master pickle file comprised of Bot or automated github pull-requests and pull-requests in general which we processed as not relevant to the task at hand and so were discarded due to the fact that any inference derieved from such issues would not contribute to improving customer experience. The details on precprocessing including discussions can be found in the following python notebook `data-preprocessing.ipynb`. Some information was observed during preprocessing, mainly the fact that we needed more information about user comments to get more context for us and as an input to the LLM for better understanding of the history of an issue, to this purpose edits were made in `fetch_github_issues.py` to gather information about comments, comment history and more information over issues.
 3. **Model Selection**: We selected the Language Model (LLM) with respect to the computational and compatibility requirements of the task at hand. It was noted that although real time behaviour is not required, the model should process eaxh isuue within 10 minutes of standard time in a normal PC equipped with 16GB CPU RAM and no GPU. We used a naÏve chat-based state-of-the-art LLM since it can be remarked that the train data was not enough to notice any change in the model's output or performance.
 4. **Processing an Issue**: Go through an issue with its comment history and process it through the LLM to get potential failpoints where users could have handled the situation better. This is made possble by running through the web UI or the CLI. More details on implementation can be found in section **Getting Started**.
@@ -40,7 +40,9 @@ The tool was to be used by 4 users of different personas, Harald, Julian, Daniel
 The parameters were identified as being the most important to the end-user, the customer and are listed in no particular order. These metrics were used in the prompt engineering and the LLM should consider them while making comments on the user comments to better customer experience.
 
 ## Prompt Engineering
-Prompt engineering involves crafting specific prompts or instructions given to a language model to produce desired outputs. The goal of this exercise is to guide the model towards generating outputs that align with the intended objective. The focus on Prompt Engineering is to ask the correct questions and getting the precise and homogenous answers and parsing them in an effectively readable and understandble format. Following are some examples data where we brainstormed for the correct prompt while prompt training. (examples)
+Prompt engineering involves crafting specific prompts or instructions given to a language model to produce desired outputs. The goal of this exercise is to guide the model towards generating outputs that align with the intended objective. The focus on Prompt Engineering is to ask the correct questions and getting the precise and homogenous answers and parsing them in an effectively readable and understandble format. Following are some examples data where we brainstormed for the correct prompt while prompt training.
+
+For eg. we remarked that using english in 1st person in prompt was making the model ambiguous to different persons or stakeholders involved. Thus we encouraged the repeated use of proper nouns (person names rather than he,she,it) for our prompt to make relationships and information flow clear, even if the prompt reads strange in colloquial English speech.  
 
 ## Getting Started
 To get started with our project, follow these steps:
@@ -61,14 +63,20 @@ To get started with our project, follow these steps:
 16. We envisage to build a fully capable chatbot as an application had we had more time on the project. 
 
 ## Project Outcome Overview
-We have dereived a correct prompt with post-processing or parsing of the result such as to obtain a robust result output from the LLM which can be used by internal users so as to improve the customer experience.
+We have dereived a correct prompt with post-processing or parsing of the result such as to obtain a robust result output from the LLM which can be used by internal users so as to improve the customer experience. We also have UIs in Command Line and Web based supoorting our work, both use the same scripts and model for implementation and are rudimentary in nature.
 
 ## Future Improvement Outlook
 As stated with more time duration, the team could have worked more on getting the data from the Infineon User Community using a web scrapper. A dummy version was tried and the title of the issues was obtained but it was observed that to gather all the information was too complex and time consuming so the endeavour was abandoned.
 
 Another area where focus was left out was the comparision and implementation of different LLMs and their finetuning over the input data. We remarked that such a small amount of data would not create an appreciable change in the internet scaled trained state of the art LLMs used. Also, we did glance over the hyperparameters of the model selected but that was too forgone over other priority issues like prompt engineering.
 
-We started working on the UI on the final day, and would like to improve much on this rudimentary UI.
+We started working on the UI on the final day, and would like to improve much on this rudimentary UI. The current UI comprise of a command line UI and a web UI. We envisage better post processing and better visualisation had more time been available.
+
+## Special Section (Feedback to Organisers)
+- We would have liked if the competition was bigger and better advertised.
+- We would have liked if technical support be provided in person for all days.
+- We would have liked if we would have been provided with a common cloud cluster to compensate for different infrastructures and computational capabilities of personal laptops for a competition involving generative AI.
+- We would have liked it better if the final presentation was in person.
 
 ## Contributors
 Team 10 EESTEC LC Aachen AI Hackathon 2024
