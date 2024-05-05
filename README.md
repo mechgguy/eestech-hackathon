@@ -49,7 +49,7 @@ To get started with our project, follow these steps:
 * Note: We have used the following LLM model for our implementation [](), if you wish to use other models do not forget to change your references in the individual scripts.
 4. Collect and prepare the required data to send to the preprocessing step. Here we can correspond it to `github_issues.pkl`.
 5. Preprocess the data by identifying its patterns and its redundancies and remove the extra information. Here we can correspond to `fetch_github_issues.py`.
-6. Work on your prompt, engineer it, perform trial-and-error iterations with `my-llama-example.py` till you get satisfactory results.
+6. Work on your prompt, engineer it, perform trial-and-error iterations with `my_llama_example.py` till you get satisfactory results.
 7. Your model and prompt is ready to be deployed in the UI.
 
 ## Project Outcome Overview
