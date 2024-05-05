@@ -5,7 +5,7 @@
 This repository contains the submission of Team 10 for the Hackathon organized by EESTEC LC Aachen in partnership with Infineon. Our project aims to enhance customer experience using public data and generative AI.
 
 ## Problem Statement
-The topic of the hackathon is "How can we improve customer experience with public data and generative AI?". Our team proposes a solution using a Large Language Model (LLM)-based model. The model provides feedback to different personas, acting as customers, by analyzing their comments and suggesting improvements. More details on problem statement can be found at [github](https://github.com/Infineon/hackathon)
+The topic of the hackathon is "How can we improve customer experience with public data and generative AI?". Our team proposes a solution using a Large Language Model (LLM)-based model. The model provides feedback to different personas, acting as customers, by analyzing their comments and suggesting improvements. More details on problem statement can be found at [github](https://github.com/Infineon/hackathon).
 
 ## Solution Overview
 Our solution is based on a Large Language Model (LLM) that analyzes customer comments and provides tailored feedback to improve their experience. We have identified and defined customer experience metrics, both abstract and non-abstract, by considering various customer personas and viewpoints. By leveraging public data and generative AI, our model offers effective and consistent predictions on how issues and comments can be handled better to enhance customer satisfaction. 
