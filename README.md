@@ -62,6 +62,10 @@ To get started with our project, follow these steps:
 15. Give the issue number as input to the chatbot.
 16. We envisage to build a fully capable chatbot as an application had we had more time on the project. 
 
+## Versioning Information (for the rest, please check requirements.txt)
+- NodeJs: 16.7.1
+- NPM: 8.15.0
+
 ## Project Outcome Overview
 - We have some inroads in preprocessing of data and have a semantic understanding of the pickle data provided. We have recognised some defunct columns which do not add to the variety or the utility of the LLM model.
 - We have dereived a correct prompt with formatting of the result such as to obtain a robust result output from the LLM which can be used by internal users so as to improve the customer experience.
