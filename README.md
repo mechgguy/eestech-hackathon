@@ -34,8 +34,8 @@ The tool was to be used by 4 users of different personas, Harald, Julian, Daniel
 
 The parameters were identified as being the most important to the end-user, the customer and are listed in no particular order. These metrics were used in the prompt engineering and the LLM should consider them while making comments on the user comments to better customer experience.
 
-## Prompt Engineering:
-Prompt engineering involves crafting specific prompts or instructions given to a language model to produce desired outputs. The goal of this exercise is to guide the model towards generating outputs that align with the intended objective. The focus on Prompt Engineering is to ask the correct questions and getting the precise and homogenous answers and parsing them in an effectively readable and understandble format. 
+## Prompt Engineering
+Prompt engineering involves crafting specific prompts or instructions given to a language model to produce desired outputs. The goal of this exercise is to guide the model towards generating outputs that align with the intended objective. The focus on Prompt Engineering is to ask the correct questions and getting the precise and homogenous answers and parsing them in an effectively readable and understandble format. Following are some examples data where we brainstormed for the correct prompt while prompt training. <examples if possible>
 
 ## Getting Started
 To get started with our project, follow these steps:
@@ -46,11 +46,23 @@ To get started with our project, follow these steps:
 5. Work on your prompt, engineer it, perform trial-and-error iterations with `my-llama-example.py` till you get satisfactory results.
 6. Your model and prompt is ready to be deployed in the UI.
 
+## Project Outcome Overview
+We have dereived a correct prompt with post-processing or parsing of the result such as to obtain a robust result output from the LLM which can be used by internal users so as to improve the customer experience.
+
+## Future Improvement Outlook
+As stated with more time duration, the team could have worked more on getting the data from the Infineon User Community using a web scrapper. A dummy version was tried and the title of the issues was obtained but it was observed that to gather all the information was too complex and time consuming so the endeavour was abandoned.
+
+Another area where focus was left out was the comparision and implementation of different LLMs and their finetuning over the input data. We remarked that such a small amount of data would not create an appreciable change in the internet scaled trained state of the art LLMs used. Also, we did glance over the hyperparameters of the model selected but that was too forgone over other priority issues like prompt engineering.
+
+We started working on the UI on the final day, and would like to improve much on this rudimentary UI.
+
 ## Contributors
 Team 10 EESTEC LC Aachen AI Hackathon 2024
 - [Manas Mehrotra](https://github.com/mechgguy)
 - [Kh Safkat Amin](https://github.com/khsafkatamin)
 - [Team Member 3](https://github.com/teammember3)
+
+Endeavour overtaken between the 03.05.2024-05.05.2024
 
 ## Acknowledgements
 We would like to thank EESTEC LC Aachen and Infineon for organizing this hackathon and providing us with the opportunity to work on such an exciting project.
