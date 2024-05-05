@@ -41,7 +41,7 @@ To get started with our project, follow these steps:
 
 ## Contributors
 - [Manas Mehrotra](https://github.com/mechgguy)
-- [Team Member 2](https://github.com/teammember2)
+- [Kh Safkat Amin](https://github.com/khsafkatamin)
 - [Team Member 3](https://github.com/teammember3)
 
 ## Acknowledgements
