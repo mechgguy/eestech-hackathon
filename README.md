@@ -11,7 +11,7 @@ The topic of the hackathon is "How can we improve customer experience with publi
 Our solution is based on a Large Language Model (LLM) that analyzes customer comments and provides tailored feedback to improve their experience. We have identified and defined customer experience metrics, both abstract and non-abstract, by considering various customer personas and viewpoints. By leveraging public data and generative AI, our model offers effective and consistent predictions on how issues and comments can be handled better to enhance customer satisfaction. 
 
 ## Key Features
-- Language Model (LLM)-based solution
+- Large Language Model (LLM)-based solution.
 - Feedback generation for different customer personas and the end-user customer.
 - Definition and analysis of abstract and non-abstract customer experience metrics.
 - Leveraging public data and generative AI for enhanced predictions.
@@ -41,10 +41,11 @@ Prompt engineering involves crafting specific prompts or instructions given to a
 To get started with our project, follow these steps:
 1. Clone this repository to your local machine.
 2. Install the required dependencies <as mentioned in the `requirements.txt` file.>
-3. Collect and prepare the required data to send to the preprocessing step. Here we can correspond it to `github_issues.pkl`.
-4. Preprocess the data by identifying its patterns and its redundancies and remove the extra information. Here we can correspond to `fetch_github_issues.py`.
-5. Work on your prompt, engineer it, perform trial-and-error iterations with `my-llama-example.py` till you get satisfactory results.
-6. Your model and prompt is ready to be deployed in the UI.
+* Note: We have used the following LLM model for our implementation [](), if you wish to use other models do not forget to change your references in the individual scripts.
+4. Collect and prepare the required data to send to the preprocessing step. Here we can correspond it to `github_issues.pkl`.
+5. Preprocess the data by identifying its patterns and its redundancies and remove the extra information. Here we can correspond to `fetch_github_issues.py`.
+6. Work on your prompt, engineer it, perform trial-and-error iterations with `my-llama-example.py` till you get satisfactory results.
+7. Your model and prompt is ready to be deployed in the UI.
 
 ## Project Outcome Overview
 We have dereived a correct prompt with post-processing or parsing of the result such as to obtain a robust result output from the LLM which can be used by internal users so as to improve the customer experience.
