@@ -14,7 +14,9 @@ Our solution is based on a Large Language Model (LLM) that analyzes customer com
 - Large Language Model (LLM)-based solution.
 - Feedback generation for different customer personas and the end-user customer.
 - Definition and analysis of abstract and non-abstract customer experience metrics.
+- Prompt Engineering so as to generate robust and homogenous responses for many different types of issues. 
 - Leveraging public data and generative AI for enhanced predictions.
+- We propose a web UI and a CLI for demonstration for our work.
 
 ## How It Works
 1. **Data Collection**: We gather customer comments and related data from public sources. For our current dummy implementation we used the pickle data of github issues (with user comments). 
