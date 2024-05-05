@@ -51,7 +51,7 @@ To get started with our project, follow these steps:
 * Note: We have used the following LLM model for our implementation [Llama-2-7B-Chat-GGUF](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/blob/main/llama-2-7b-chat.Q8_0.gguf), if you wish to use other models do not forget to change your references in the individual scripts.
 4. Collect and prepare the required data to send to the preprocessing step. Here we can correspond it to `github_issues.pkl`.
 5. Preprocess the data by identifying its patterns and its redundancies and remove the extra information. Here we can correspond to `fetch_github_issues.py`.
-6. Work on your prompt, engineer it, perform trial-and-error iterations with `AInfineon.py` till you get satisfactory results.
+6. Work on your prompt, engineer it, perform trial-and-error iterations with `AInfineon.py` till you get satisfactory results. To run the `AInfineon.py` all you have to do is run `python3 AInfineon.py <index number>` for example `python3 AInfineon.py 10`
 7. Your model and prompt is ready to be deployed in the UI.
 8. We have developed a Command Line UI and a Web UI on top of it.
 9. To launch the Command Line UI launch the `AInfineon.py` script with the appropriate issue number.
