@@ -89,7 +89,7 @@ Team 10 EESTEC LC Aachen AI Hackathon 2024
 Endeavour overtaken between the 03.05.2024-05.05.2024
 
 ## Acknowledgements
-We would like to thank EESTEC LC Aachen and Infineon for organizing this hackathon and providing us with the opportunity to work on such an exciting project.
+We would like to thank EESTEC LC Aachen and Infineon for organizing this hackathon and providing us with the opportunity to work on such an exciting project. Special thanks for Julian and Eric for the on-site support.
 
 ## License
 This project is licensed under the [MIT License](https://www.mit.edu/~amini/LICENSE.md).
