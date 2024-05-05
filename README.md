@@ -41,8 +41,8 @@ Prompt engineering involves crafting specific prompts or instructions given to a
 To get started with our project, follow these steps:
 1. Clone this repository to your local machine.
 2. Install the required dependencies <as mentioned in the `requirements.txt` file.>
-3. Collect and prepare the required data to send to the preprocessing step.
-4. Preprocess the data by identifying its patterns and its redundancies and remove the extra information.
+3. Collect and prepare the required data to send to the preprocessing step. Here we can correspond it to `github_issues.pkl`.
+4. Preprocess the data by identifying its patterns and its redundancies and remove the extra information. Here we can correspond to `fetch_github_issues.py`.
 5. Work on your prompt, engineer it, perform trial-and-error iterations with `my-llama-example.py` till you get satisfactory results.
 6. Your model and prompt is ready to be deployed in the UI.
 
