@@ -44,6 +44,7 @@ To get started with our project, follow these steps:
 3. Run the main script to train the model and generate feedback.
 
 ## Contributors
+Team 10 EESTEC LC Aachen AI Hackathon 2024
 - [Manas Mehrotra](https://github.com/mechgguy)
 - [Kh Safkat Amin](https://github.com/khsafkatamin)
 - [Team Member 3](https://github.com/teammember3)
