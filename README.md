@@ -63,7 +63,7 @@ We started working on the UI on the final day, and would like to improve much on
 Team 10 EESTEC LC Aachen AI Hackathon 2024
 - [Manas Mehrotra](https://github.com/mechgguy)
 - [Kh Safkat Amin](https://github.com/khsafkatamin)
-- [Team Member 3](https://github.com/teammember3)
+- [Isfandyar Siddiqui](https://github.com/isfand-yar)
 
 Endeavour overtaken between the 03.05.2024-05.05.2024
 
