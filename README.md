@@ -40,7 +40,7 @@ Prompt engineering involves crafting specific prompts or instructions given to a
 ## Getting Started
 To get started with our project, follow these steps:
 1. Clone this repository to your local machine.
-2. Install the required dependencies as mentioned in the `requirements.txt` file.
+2. Install the required dependencies <as mentioned in the `requirements.txt` file.>
 3. Run the main script to train the model and generate feedback.
 
 ## Contributors
