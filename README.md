@@ -33,6 +33,7 @@ The tool was to be used by 4 users of different personas, Harald, Julian, Daniel
 - **Customer Satisfaction**: read customer comments (if any) and evaluate if the activity in the issue was helpful to the customer. 
 
 "Please note that while the data processed by the LLM model is not restricted to predefined performance parameters, the model will analyze both the provided data and prompts semantically. Consequently, it will generate responses based on these parameters outlined in the prompts, while also considering the semantic context of the inputs."
+
 The parameters were identified as being the most important to the end-user, the customer and are listed in no particular order. These metrics were used in the prompt engineering and the LLM should consider them while making comments on the user comments to better customer experience.
 
 ## Prompt Engineering
