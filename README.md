@@ -48,7 +48,7 @@ For eg. we remarked that using english in 1st person in prompt was making the mo
 To get started with our project, follow these steps:
 1. Clone this repository to your local machine.
 2. Install the required dependencies <as mentioned in the `requirements.txt` file.>
-* Note: We have used the following LLM model for our implementation [llama-2-7b-chat.Q4_K_M.gguf](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/blob/main/llama-2-7b-chat.Q4_K_M.gguf), if you wish to use other models do not forget to change your references in the individual scripts.
+* Note: We have used the following LLM model for our implementation [Llama-2-7B-Chat-GGUF](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/blob/main/llama-2-7b-chat.Q8_0.gguf), if you wish to use other models do not forget to change your references in the individual scripts.
 4. Collect and prepare the required data to send to the preprocessing step. Here we can correspond it to `github_issues.pkl`.
 5. Preprocess the data by identifying its patterns and its redundancies and remove the extra information. Here we can correspond to `fetch_github_issues.py`.
 6. Work on your prompt, engineer it, perform trial-and-error iterations with `AInfineon.py` till you get satisfactory results.
@@ -61,6 +61,10 @@ To get started with our project, follow these steps:
 14. Run the `flask-api.py` script.
 15. Give the issue number as input to the chatbot.
 16. We envisage to build a fully capable chatbot as an application had we had more time on the project. 
+
+## Versioning Information (for the rest, please check requirements.txt)
+- NodeJs: 16.7.1
+- NPM: 8.15.0
 
 ## Project Outcome Overview
 - We have some inroads in preprocessing of data and have a semantic understanding of the pickle data provided. We have recognised some defunct columns which do not add to the variety or the utility of the LLM model.
