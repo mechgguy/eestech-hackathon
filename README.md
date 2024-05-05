@@ -8,7 +8,7 @@ This repository contains the submission of Team 10 for the Hackathon organized b
 The topic of the hackathon is "How can we improve customer experience with public data and generative AI?". Our team proposes a solution using a Language Model (LLM)-based model. The model provides feedback to different personas, acting as customers, by analyzing their comments and suggesting improvements. More deatils on problem statement can be found at [github](https://github.com/Infineon/hackathon)
 
 ## Solution Overview
-Our solution is based on a Language Model (LLM) that analyzes customer comments and provides tailored feedback to improve their experience. We have identified and defined customer experience metrics, both abstract and non-abstract, by considering various customer personas and viewpoints. By leveraging public data and generative AI, our model offers effective and consistent predictions on how issues and comments can be handled better to enhance customer satisfaction. Our focus was on Prompt Engineering, asking the correct questions and getting the answers in a correct and homogenous format. Prompt engineering involves crafting specific prompts or instructions given to a language model to produce desired outputs.  The goal of this exercise is to guide the model towards generating outputs that align with the intended objective.
+Our solution is based on a Language Model (LLM) that analyzes customer comments and provides tailored feedback to improve their experience. We have identified and defined customer experience metrics, both abstract and non-abstract, by considering various customer personas and viewpoints. By leveraging public data and generative AI, our model offers effective and consistent predictions on how issues and comments can be handled better to enhance customer satisfaction. 
 
 ## Key Features
 - Language Model (LLM)-based solution
@@ -33,6 +33,9 @@ The tool was to be used by 4 users of different personas, Harald, Julian, Daniel
 - Customer Satisfaction
 
 The parameters were identified as being the most important to the end-user, the customer and are listed in no particular order. These metrics were used in the prompt engineering and the LLM should consider them while making comments on the user comments to better customer experience.
+
+## Prompt Engineering: 
+Prompt engineering involves crafting specific prompts or instructions given to a language model to produce desired outputs. The goal of this exercise is to guide the model towards generating outputs that align with the intended objective. The focus on Prompt Engineering is to ask the correct questions and getting the precise and homogenous answers and parsing them in an effectively readable and understandble format. 
 
 ## Getting Started
 To get started with our project, follow these steps:
