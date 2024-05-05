@@ -51,6 +51,11 @@ To get started with our project, follow these steps:
 5. Preprocess the data by identifying its patterns and its redundancies and remove the extra information. Here we can correspond to `fetch_github_issues.py`.
 6. Work on your prompt, engineer it, perform trial-and-error iterations with `AInfineon.py` till you get satisfactory results.
 7. Your model and prompt is ready to be deployed in the UI.
+8. We have developed a Command Line UI and a Web UI on top of it.
+9. To launch the Command Line UI launch the `AInfineon.py` script with the appropriate issue number.
+10. To launch the web UI, you need npm, so install it and further run `flask-api.py` script.
+11. Give the issue number as input to the chatbot.
+12. We envisage to build a fully capable chatbot as an application had we had more time on the project. 
 
 ## Project Outcome Overview
 We have dereived a correct prompt with post-processing or parsing of the result such as to obtain a robust result output from the LLM which can be used by internal users so as to improve the customer experience.
