@@ -53,9 +53,12 @@ To get started with our project, follow these steps:
 7. Your model and prompt is ready to be deployed in the UI.
 8. We have developed a Command Line UI and a Web UI on top of it.
 9. To launch the Command Line UI launch the `AInfineon.py` script with the appropriate issue number.
-10. To launch the web UI, you need npm, so install it and further run `flask-api.py` script.
-11. Give the issue number as input to the chatbot.
-12. We envisage to build a fully capable chatbot as an application had we had more time on the project. 
+10. To launch the web UI, you need npm, so install it
+11. Go to ~/Chatbot and further run `npm install`, it will install all libraries required for the front-end and then run `npm start` and it will start the front-end.
+13. You would see terminal with server starting detail on some port.
+14. Run the `flask-api.py` script.
+15. Give the issue number as input to the chatbot.
+16. We envisage to build a fully capable chatbot as an application had we had more time on the project. 
 
 ## Project Outcome Overview
 We have dereived a correct prompt with post-processing or parsing of the result such as to obtain a robust result output from the LLM which can be used by internal users so as to improve the customer experience.
