@@ -31,6 +31,7 @@ The tool was to be used by 4 users of different personas, Harald, Julian, Daniel
 - Response Effectiveness
 - Empathy and Friendliness
 - Customer Satisfaction
+
 The parameters were identified as being the most important to the end-user, the customer and are listed in no particular order. These metrics were used in the prompt engineering and the LLM should consider them while making comments on the user comments to better customer experience.
 
 ## Getting Started
