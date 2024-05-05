@@ -63,7 +63,9 @@ To get started with our project, follow these steps:
 16. We envisage to build a fully capable chatbot as an application had we had more time on the project. 
 
 ## Project Outcome Overview
-We have dereived a correct prompt with post-processing or parsing of the result such as to obtain a robust result output from the LLM which can be used by internal users so as to improve the customer experience. We also have UIs in Command Line and Web based supoorting our work, both use the same scripts and model for implementation and are rudimentary in nature.
+- We have some inroads in preprocessing of data and have a semantic understanding of the pickle data provided. We have recognised some defunct columns which do not add to the variety or the utility of the LLM model.
+- We have dereived a correct prompt with formatting of the result such as to obtain a robust result output from the LLM which can be used by internal users so as to improve the customer experience.
+- We also have UIs in Command Line and Web based supoorting our work, both use the same scripts and model for implementation and are rudimentary in nature.
 
 ## Future Improvement Outlook
 As stated with more time duration, the team could have worked more on getting the data from the Infineon User Community using a web scrapper. A dummy version was tried and the title of the issues was obtained but it was observed that to gather all the information was too complex and time consuming so the endeavour was abandoned.
