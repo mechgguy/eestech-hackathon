@@ -26,11 +26,11 @@ Our solution is based on a Language Model (LLM) that analyzes customer comments 
 
 ## Customer Experience Definition:
 The tool was to be used by 4 users of different personas, Harald, Julian, Daniel and Sarah, as an example. These users and many other part of the company used the tool in order to get feedback to ultimately better the customer experience. So, we put us into their roles and also to the shoes of the customer and identified the following parameters to be used as performance metrics by our LLM.
-- Response Time
-- Resolution Time
-- Response Effectiveness
-- Empathy and Friendliness
-- Customer Satisfaction
+- Response Time: calculate the time between creation of the issue and the first comment to the issue and evaluate if that is reasonable with respect to the issue.
+- Resolution Time: calculate the time between creation of the issue and the resolution to the issue and evaluate if that is reasonable with respect to the issue.
+- Response Effectiveness: read the comments and the sequence of comments to the issue and evaluate if that helps the customer or in resolution of the issue.
+- Empathy and Friendliness: read the tone of users' comments to the issue and evaluate if the comments are valid, helpful and unbaised especially with respect to knowledge level and experience of the user.
+- Customer Satisfaction: read customer comments (if any) and evaluate if the activity in the issue was helpful to the customer. 
 
 The parameters were identified as being the most important to the end-user, the customer and are listed in no particular order. These metrics were used in the prompt engineering and the LLM should consider them while making comments on the user comments to better customer experience.
 
