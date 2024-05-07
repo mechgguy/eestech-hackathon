@@ -59,7 +59,7 @@ To get started with our project, follow these steps:
 11. Go to ~/Chatbot and further run `npm install`, it will install all libraries required for the front-end and then run `npm start` and it will start the front-end.
 13. You would see terminal with server starting detail on some port.
 14. Run the `flask-api.py` script.
-15. Give the issue number as input to the chatbot. For example, for this [issue](https://github.com/Infineon/XMC-for-Arduino/issues/162) the model gives the following insights-
+15. Give the issue number as input to the chatbot. For example, the model gives the following insights for this [issue](https://github.com/Infineon/XMC-for-Arduino/issues/162) -
 
 ![](assets/result.png)
 16. We envisage to build a fully capable chatbot as an application had we had more time on the project. 
